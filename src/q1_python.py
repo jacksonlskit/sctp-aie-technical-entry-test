@@ -15,7 +15,7 @@
 def convertTemp(value, unit):
     if unit == "C":
         result = (value * 9 /5) + 32 #Celsius to Fahrenheit
-    elif unit == "F"
+    elif unit == "F":
         result = (value - 32) * 5 / 9 #Fahrenheit to Celsius
     else:
         return -1 #invalid unit
