@@ -13,7 +13,15 @@
 #   - Round the result to 2 decimal places before returning
 
 def convertTemp(value, unit):
-    # Add your code here
+    if unit == "C":
+        result = (value * 9 /5) + 32 #Celsius to Fahrenheit
+    elif unit == "F"
+        result = (value - 32) * 5 / 9 #Fahrenheit to Celsius
+    else:
+        return -1 #invalid unit
+
+    return round(result, 2)
+    
     pass
 
 
